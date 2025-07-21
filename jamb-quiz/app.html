@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrepGenius</title>
+  <link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.png">
+<meta name="theme-color" content="#1E88E5">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body { font-family: 'Poppins', sans-serif; background: #f9f9f9; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #1a4d8f; font-weight: 700; margin-bottom: 5px; }
+    .slogan { text-align: center; font-size: 16px; color: #444; margin-bottom: 8px; }
+    #userDisplay { text-align: center; font-size: 14px; color: #555; margin-bottom: 20px; }
+    .timer { text-align: center; font-size: 18px; color: #d32f2f; font-weight: 600; margin-bottom: 10px; }
+    .footer { text-align: center; font-size: 13px; color: #888; margin-top: 60px; padding-bottom: 20px; }
+    .btn { padding: 12px 24px; background: #1a4d8f; color: white; border: none; border-radius: 6px; font-weight: 500; cursor: pointer; }
+    .question-box, .results-section, #answerReview, #resultHistoryPanel {
+      background: white; padding: 25px; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1); margin: 30px auto; max-width: 800px;
+    }
+    .options .option { margin: 8px 0; padding: 12px; background: #f1f1f1; border-radius: 8px; cursor: pointer; }
+    .option.selected { background: #1a4d8f; color: white; font-weight: 500; }
+    .navigation, .subject-tabs, .grid {
+      display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px;
+    }
+    .tab { padding: 10px 20px; background: #ddd; border-radius: 30px; cursor: pointer; }
+    .tab.active { background: #1a4d8f; color: white; }
+    .grid-btn { padding: 10px; border-radius: 5px; min-width: 40px; text-align: center; background: #ccc; }
+    .grid-btn.answered { background: #4CAF50; color: white; }
+    .grid-btn.unanswered { background: #e53935; color: white; }
+    canvas { display: block; margin: 30px auto; max-width: 600px; }
+    .review-question { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    .correct-answer { color: #4CAF50; font-weight: bold; }
+    .wrong-answer { color: #F44336; text-decoration: line-through; }
+    .badge { font-size: 20px; font-weight: bold; text-align: center; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>PrepGenius</h1>
+  <p class="slogan">Smarter prep. Stronger scores.</p>
+  <p id="userDisplay"></p>
+  <div class="timer" id="timer"></div>
+  <div class="subject-tabs" id="subjectTabs"></div>
+  <div class="question-box">
+    <div id="questionText"></div>
+    <div class="options" id="optionsContainer"></div>
+    <div class="navigation">
+      <button class="btn" id="prevBtn">Previous</button>
+      <button class="btn" id="nextBtn">Next</button>
+      <button class="btn" id="submitBtn">Submit</button>
+    </div>
+    <div class="grid" id="navigatorGrid"></div>
+  </div>
+  <div class="results-section" id="results" style="display:none">
+    <h2 style="text-align:center; margin-bottom: 20px;">Your Performance</h2>
+    <div id="resultSummary" style="font-size: 16px; padding: 0 10px;"></div>
+    <div class="badge" id="badge"></div>
+    <canvas id="resultChart"></canvas>
+    <canvas id="pieChart"></canvas>
+    <div style="text-align: center; margin-top: 30px;">
+      <button class="btn" onclick="location.reload()">🔁 Try Again</button>
+      <button class="btn" onclick="downloadCertificate()">🖨 Export as PDF</button>
+    </div>
+  </div>
+  <div class="footer">Powered by Manuel Technologies</div>
+  <script>
+    const userName = localStorage.getItem("prepGeniusUser") || "Anonymous";
+    document.getElementById("userDisplay").innerText = "Candidate: " + userName;const subjects = ["chemistry", "biology", "physics", "mathematics"];
+let currentSubject = subjects[0];
+let currentIndex = {}, userAnswers = {}, questions = {};
+
+subjects.forEach(subj => {
+  currentIndex[subj] = 0;
+  userAnswers[subj] = Array(40).fill(null);
+});
+
+let timeLeft = 2 * 60 * 60;
+const timerEl = document.getElementById("timer");
+const countdown = setInterval(() => {
+  const hrs = Math.floor(timeLeft / 3600);
+  const mins = Math.floor((timeLeft % 3600) / 60);
+  const secs = timeLeft % 60;
+  timerEl.innerText = `Time Left: ${hrs}h ${mins}m ${secs}s`;
+  if (timeLeft <= 0) {
+    clearInterval(countdown);
+    alert("Time's up! Submitting your test.");
+    submitTest();
+  }
+  timeLeft--;
+}, 1000);
+
+async function loadQuestions(subject) {
+  try {
+    const res = await fetch(`./data/${subject}.json`);
+    const data = await res.json();
+    return data.sort(() => 0.5 - Math.random()).slice(0, 40);
+  } catch (err) {
+    alert(`Error loading ${subject}.json`);
+    return [];
+  }
+}
+
+async function startTest() {
+  for (let subj of subjects) {
+    questions[subj] = await loadQuestions(subj);
+  }
+  buildTabs();
+  renderQuestion();
+}
+
+function buildTabs() {
+  const tabContainer = document.getElementById("subjectTabs");
+  tabContainer.innerHTML = "";
+  subjects.forEach(subj => {
+    const tab = document.createElement("div");
+    tab.className = `tab ${subj === currentSubject ? 'active' : ''}`;
+    tab.innerText = subj.charAt(0).toUpperCase() + subj.slice(1);
+    tab.onclick = () => {
+      currentSubject = subj;
+      renderQuestion();
+      buildTabs();
+    };
+    tabContainer.appendChild(tab);
+  });
+}
+
+function renderQuestion() {
+  const qIndex = currentIndex[currentSubject];
+  const question = questions[currentSubject][qIndex];
+  if (!question) return;
+  document.getElementById("questionText").innerText = `Q${qIndex + 1}/40: ${question.question}`;
+  const optionsEl = document.getElementById("optionsContainer");
+  optionsEl.innerHTML = "";
+  question.options.forEach((opt, idx) => {
+    const optDiv = document.createElement("div");
+    optDiv.className = "option";
+    if (userAnswers[currentSubject][qIndex] === idx) optDiv.classList.add("selected");
+    optDiv.innerText = opt;
+    optDiv.onclick = () => {
+      userAnswers[currentSubject][qIndex] = idx;
+      renderQuestion();
+    };
+    optionsEl.appendChild(optDiv);
+  });
+  const navGrid = document.getElementById("navigatorGrid");
+  navGrid.innerHTML = "";
+  for (let i = 0; i < 40; i++) {
+    const btn = document.createElement("div");
+    btn.className = "grid-btn";
+    btn.innerText = i + 1;
+    if (userAnswers[currentSubject][i] !== null) btn.classList.add("answered");
+    else btn.classList.add("unanswered");
+    btn.onclick = () => { currentIndex[currentSubject] = i; renderQuestion(); };
+    navGrid.appendChild(btn);
+  }
+}
+
+document.getElementById("prevBtn").onclick = () => {
+  if (currentIndex[currentSubject] > 0) {
+    currentIndex[currentSubject]--;
+    renderQuestion();
+  }
+};
+document.getElementById("nextBtn").onclick = () => {
+  if (currentIndex[currentSubject] < 39) {
+    currentIndex[currentSubject]++;
+    renderQuestion();
+  }
+};
+document.getElementById("submitBtn").onclick = () => {
+  if (confirm("Are you sure you want to submit your test?")) submitTest();
+};
+
+function submitTest() {
+  clearInterval(countdown);
+  document.querySelector(".question-box").style.display = "none";
+  document.querySelector(".subject-tabs").style.display = "none";
+  document.getElementById("results").style.display = "block";
+  const resultSummary = document.getElementById("resultSummary");
+  const badgeEl = document.getElementById("badge");
+  resultSummary.innerHTML = "";
+  let totalScore = 0;
+  const scores = [];
+  subjects.forEach(subject => {
+    let correct = 0;
+    questions[subject].forEach((q, i) => {
+      const answerIdx = q.options.indexOf(q.answer);
+      if (userAnswers[subject][i] === answerIdx) correct++;
+    });
+    const percent = ((correct / 40) * 100).toFixed(1);
+    resultSummary.innerHTML += `<p><b>${subject.toUpperCase()}:</b> ${correct} / 40 (${percent}%)</p>`;
+    totalScore += correct;
+    scores.push(correct);
+  });
+  const overallPercent = ((totalScore / (subjects.length * 40)) * 100).toFixed(1);
+  if (overallPercent >= 80) badgeEl.innerHTML = "🏅 Gold Badge - Excellent!";
+  else if (overallPercent >= 60) badgeEl.innerHTML = "🥈 Silver Badge - Great Job!";
+  else if (overallPercent >= 40) badgeEl.innerHTML = "🥉 Bronze Badge - Keep Improving!";
+  else badgeEl.innerHTML = "💡 Don't give up — every genius once struggled!";
+
+  new Chart(document.getElementById('resultChart').getContext('2d'), {
+    type: 'bar', data: {
+      labels: subjects.map(s => s.toUpperCase()),
+      datasets: [{ label: 'Scores', data: scores, backgroundColor: ['#1a4d8f', '#f8a51b', '#4CAF50', '#F44336'] }]
+    },
+    options: { responsive: true, scales: { y: { beginAtZero: true, max: 40 } } }
+  });
+
+  new Chart(document.getElementById('pieChart').getContext('2d'), {
+    type: 'pie', data: {
+      labels: subjects.map(s => s.toUpperCase()),
+      datasets: [{ data: scores, backgroundColor: ['#1a4d8f', '#f8a51b', '#4CAF50', '#F44336'] }]
+    }
+  });
+}
+
+function downloadCertificate() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(22);
+  doc.setTextColor("#1a4d8f");
+  doc.text("PrepGenius Certificate of Completion", 20, 25);
+  doc.setFontSize(14);
+  doc.setTextColor("#333");
+  doc.text(`Presented to: ${userName}`, 20, 40);
+  doc.text("For successfully completing a CBT session", 20, 50);
+  doc.setFontSize(12);
+  doc.text("Result Summary:", 20, 65);
+  const resultText = document.getElementById("resultSummary").innerText;
+  const lines = doc.splitTextToSize(resultText, 170);
+  doc.text(lines, 20, 75);
+  const date = new Date().toLocaleString();
+  doc.setFontSize(10);
+  doc.text(`Date: ${date}`, 20, 270);
+  doc.text("Smarter prep. Stronger scores.", 20, 277);
+  doc.text("Powered by Manuel Technologies", 20, 284);
+  doc.save(`PrepGenius_Certificate_${userName}.pdf`);
+}
+
+startTest();
+
+  </script>
+</body>
+</html>

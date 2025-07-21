@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the value of 7²?",
+    "options": ["49", "56", "63", "72"],
+    "answer": "49"
+  },
+  {
+    "question": "Solve: 2x + 5 = 15",
+    "options": ["3", "5", "7", "10"],
+    "answer": "5"
+  },
+  {
+    "question": "What is the area of a triangle with base 5 and height 6?",
+    "options": ["30", "15", "25", "35"],
+    "answer": "15"
+  },
+  {
+    "question": "Find perimeter: length 8, width 3",
+    "options": ["22", "24", "26", "30"],
+    "answer": "22"
+  },
+  {
+    "question": "What is the value of Pi (π)?",
+    "options": ["3.141", "3.142", "3.145", "3.140"],
+    "answer": "3.141"
+  }
+]

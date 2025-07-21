@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrepGenius Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #f2f2f2; padding: 20px; margin: 0; }
+    .login-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 400px;
+      margin: 100px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .login-box h2 { color: #1a4d8f; margin-bottom: 20px; }
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background: #1a4d8f;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #999;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box" id="loginScreen">
+    <h2>Welcome to PrepGenius</h2>
+    <p style="font-size: 14px; margin-bottom: 25px;">Smarter prep. Stronger scores.</p>
+    <input type="text" id="username" placeholder="Enter your name" />
+    <button class="btn" onclick="loginUser()">Continue</button>
+  </div>  <div class="footer">Powered by Manuel Technologies</div>  <script>
+    function loginUser() {
+      const name = document.getElementById("username").value.trim();
+      if (!name) {
+        alert("Please enter your name");
+        return;
+      }
+      localStorage.setItem("prepGeniusUser", name);
+      window.location.href = "app.html"; // redirects to main app file
+    }
+
+    // Optional: If already logged in, redirect immediately
+    if (localStorage.getItem("prepGeniusUser")) {
+      window.location.href = "app.html";
+    }
+  </script></body>
+</html>

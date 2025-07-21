@@ -1,0 +1,312 @@
+[
+  {
+    "question": "In a titration experiment, 25.0 cm³ of 0.1M H₂SO₄ required 30.0 cm³ of NaOH for complete neutralization. What is the concentration of the NaOH solution?",
+    "options": ["0.083M", "0.167M", "0.125M", "0.150M"],
+    "answer": "0.167M"
+  },
+  {
+    "question": "Which of the following compounds will exhibit geometrical isomerism?",
+    "options": ["2-methylpropene", "But-1-ene", "But-2-ene", "Cyclopropane"],
+    "answer": "But-2-ene"
+  },
+  {
+    "question": "During the electrolysis of copper(II) sulfate solution using copper electrodes, what occurs at the anode?",
+    "options": ["Oxygen is evolved", "Copper dissolves", "Copper is deposited", "Sulfate ions are discharged"],
+    "answer": "Copper dissolves"
+  },
+  {
+    "question": "A radioactive element has a half-life of 14 days. What fraction of the original sample remains after 56 days?",
+    "options": ["1/2", "1/4", "1/8", "1/16"],
+    "answer": "1/16"
+  },
+  {
+    "question": "In the Kjeldahl method for nitrogen determination, the final titration is between:",
+    "options": ["Strong acid and strong base", "Weak acid and strong base", "Strong acid and weak base", "Weak acid and weak base"],
+    "answer": "Strong acid and weak base"
+  },
+  {
+    "question": "Which of the following reactions represents the test for unsaturation?",
+    "options": ["Fehling's test", "Lucas test", "Baeyer's test", "Tollen's test"],
+    "answer": "Baeyer's test"
+  },
+  {
+    "question": "What volume of oxygen at STP is required for the complete combustion of 1 mole of butane (C₄H₁₀)?",
+    "options": ["22.4 dm³", "44.8 dm³", "67.2 dm³", "89.6 dm³"],
+    "answer": "67.2 dm³"
+  },
+  {
+    "question": "The IUPAC name for CH₃CH₂CH(CH₃)CH₂COOH is:",
+    "options": ["3-methylpentanoic acid", "4-methylpentanoic acid", "2-methylbutanoic acid", "3-methylbutanoic acid"],
+    "answer": "3-methylpentanoic acid"
+  },
+  {
+    "question": "In the electrolysis of brine (NaCl solution), the product at the cathode is:",
+    "options": ["Chlorine", "Hydrogen", "Sodium", "Oxygen"],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "The number of α and β particles emitted when ²³⁸₉₂U decays to ²⁰⁶₈₂Pb is:",
+    "options": ["8α, 6β", "6α, 8β", "4α, 2β", "10α, 8β"],
+    "answer": "8α, 6β"
+  },
+  {
+    "question": "Which indicator would be most suitable for the titration of ethanoic acid with sodium hydroxide?",
+    "options": ["Methyl orange", "Phenolphthalein", "Litmus", "Bromothymol blue"],
+    "answer": "Phenolphthalein"
+  },
+  {
+    "question": "The compound C₆H₅COCH₃ undergoes which reaction with Fehling's solution?",
+    "options": ["Forms a silver mirror", "Gives a red precipitate", "No observable reaction", "Decolorizes the solution"],
+    "answer": "No observable reaction"
+  },
+  {
+    "question": "In the extraction of aluminum, cryolite (Na₃AlF₆) is added to the electrolyte to:",
+    "options": ["Increase conductivity", "Act as a reducing agent", "Lower the melting point", "Prevent anode effect"],
+    "answer": "Lower the melting point"
+  },
+  {
+    "question": "The activity of a radioactive sample reduces from 800 Bq to 100 Bq in 90 minutes. The half-life is:",
+    "options": ["15 minutes", "30 minutes", "45 minutes", "60 minutes"],
+    "answer": "30 minutes"
+  },
+  {
+    "question": "Which of these compounds will NOT react with sodium metal?",
+    "options": ["Ethanol", "Phenol", "Ethanoic acid", "Diethyl ether"],
+    "answer": "Diethyl ether"
+  },
+  {
+    "question": "The primary standard used in acid-base titrations must:",
+    "options": ["Be hygroscopic", "Have low molecular weight", "Be highly pure and stable", "Be colored in solution"],
+    "answer": "Be highly pure and stable"
+  },
+  {
+    "question": "The product of the reaction between benzene and chloromethane in the presence of AlCl₃ is:",
+    "options": ["Chlorobenzene", "Toluene", "Benzyl chloride", "Phenol"],
+    "answer": "Toluene"
+  },
+  {
+    "question": "During the electrolysis of molten lead(II) bromide, the mass of lead deposited by 0.5F of electricity is: (Pb = 207)",
+    "options": ["51.75g", "103.5g", "207g", "414g"],
+    "answer": "103.5g"
+  },
+  {
+    "question": "The type of radiation with the highest penetrating power is:",
+    "options": ["Alpha particles", "Beta particles", "Gamma rays", "X-rays"],
+    "answer": "Gamma rays"
+  },
+  {
+    "question": "Which of these is NOT a use of radioisotopes?",
+    "options": ["Carbon dating", "Cancer treatment", "Food preservation", "Production of alloys"],
+    "answer": "Production of alloys"
+  },
+  {
+    "question": "The volume of 0.1M HCl required to neutralize 1g of a mixture of Na₂CO₃ and NaOH containing equimolar amounts is: (Na=23, C=12, O=16)",
+    "options": ["150 cm³", "189 cm³", "200 cm³", "250 cm³"],
+    "answer": "189 cm³"
+  },
+  {
+    "question": "The compound that gives a positive iodoform test is:",
+    "options": ["Propan-1-ol", "Propan-2-ol", "Phenol", "Benzaldehyde"],
+    "answer": "Propan-2-ol"
+  },
+  {
+    "question": "In the electrolytic refining of copper, the impurities:",
+    "options": ["Dissolve in the electrolyte", "Form anode mud", "Are deposited at the cathode", "Evolve as gases"],
+    "answer": "Form anode mud"
+  },
+  {
+    "question": "The nuclear reaction ²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3¹₀n represents:",
+    "options": ["Alpha decay", "Beta decay", "Nuclear fusion", "Nuclear fission"],
+    "answer": "Nuclear fission"
+  },
+  {
+    "question": "The endpoint in a redox titration using KMnO₄ is indicated by:",
+    "options": ["Formation of a precipitate", "Change in pH", "Permanent pink color", "Evolution of gas"],
+    "answer": "Permanent pink color"
+  },
+  {
+    "question": "Which of these compounds is aromatic?",
+    "options": ["Cyclohexane", "Cyclohexene", "Benzene", "Butadiene"],
+    "answer": "Benzene"
+  },
+  {
+    "question": "The mass of silver deposited when a current of 2A is passed through silver nitrate solution for 30 minutes is: (Ag = 108, 1F = 96500C)",
+    "options": ["2.01g", "4.02g", "6.03g", "8.04g"],
+    "answer": "4.02g"
+  },
+  {
+    "question": "The radioactive isotope used in the treatment of thyroid disorders is:",
+    "options": ["Carbon-14", "Cobalt-60", "Iodine-131", "Uranium-238"],
+    "answer": "Iodine-131"
+  },
+  {
+    "question": "The percentage purity of a sample of calcium carbonate that requires 20 cm³ of 1M HCl for complete reaction is: (Ca=40, C=12, O=16)",
+    "options": ["50%", "75%", "90%", "100%"],
+    "answer": "100%"
+  },
+  {
+    "question": "The product of the reaction between propan-2-ol and acidified KMnO₄ is:",
+    "options": ["Propanal", "Propanoic acid", "Propanone", "Propene"],
+    "answer": "Propanone"
+  },
+  {
+    "question": "In the electrolysis of dilute sulfuric acid, the gas evolved at the anode is:",
+    "options": ["Hydrogen", "Oxygen", "Sulfur dioxide", "Ozone"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "The half-life of a radioactive element is 5 days. The fraction that decays in 15 days is:",
+    "options": ["1/8", "3/4", "7/8", "15/16"],
+    "answer": "7/8"
+  },
+  {
+    "question": "Which of these is NOT a primary standard for acid-base titrations?",
+    "options": ["Anhydrous sodium carbonate", "Oxalic acid", "Sodium hydroxide", "Potassium hydrogen phthalate"],
+    "answer": "Sodium hydroxide"
+  },
+  {
+    "question": "The compound formed when ethanol is heated with excess concentrated H₂SO₄ at 180°C is:",
+    "options": ["Ethanal", "Ethanoic acid", "Ethene", "Diethyl ether"],
+    "answer": "Ethene"
+  },
+  {
+    "question": "The charge required to deposit 1 mole of Al³⁺ ions is:",
+    "options": ["1F", "2F", "3F", "4F"],
+    "answer": "3F"
+  },
+  {
+    "question": "The type of radiation deflected most in a magnetic field is:",
+    "options": ["Alpha particles", "Beta particles", "Gamma rays", "All equally"],
+    "answer": "Beta particles"
+  },
+  {
+    "question": "The volume of 0.02M KMnO₄ required to oxidize 25 cm³ of 0.1M FeSO₄ in acidic medium is:",
+    "options": ["5 cm³", "10 cm³", "20 cm³", "25 cm³"],
+    "answer": "10 cm³"
+  },
+  {
+    "question": "The reagent that distinguishes between alkanes and alkenes is:",
+    "options": ["Fehling's solution", "Bromine water", "Tollen's reagent", "Lucas reagent"],
+    "answer": "Bromine water"
+  },
+  {
+    "question": "In the industrial production of chlorine by electrolysis, the by-product at the cathode is:",
+    "options": ["Oxygen", "Hydrogen", "Sodium hydroxide", "Sodium metal"],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "The number of neutrons in an atom of ²³⁸₉₂U is:",
+    "options": ["92", "146", "238", "330"],
+    "answer": "146"
+  },
+  {
+    "question": "The percentage of oxygen in potassium chlorate (KClO₃) is: (K=39, Cl=35.5, O=16)",
+    "options": ["13.9%", "26.2%", "39.2%", "52.4%"],
+    "answer": "39.2%"
+  },
+  {
+    "question": "The product of the reaction between benzene and concentrated nitric acid in the presence of concentrated sulfuric acid is:",
+    "options": ["Nitrobenzene", "Aniline", "Benzene sulfonic acid", "Phenol"],
+    "answer": "Nitrobenzene"
+  },
+  {
+    "question": "The time taken for a current of 5A to deposit 10.8g of silver is: (Ag=108, 1F=96500C)",
+    "options": ["965 seconds", "1930 seconds", "2895 seconds", "3860 seconds"],
+    "answer": "1930 seconds"
+  },
+  {
+    "question": "The radiation that consists of high-energy photons is:",
+    "options": ["Alpha particles", "Beta particles", "Gamma rays", "Cathode rays"],
+    "answer": "Gamma rays"
+  },
+  {
+    "question": "The volume of 1M NaOH required to neutralize a solution containing 0.1 mole of H₃PO₄ to Na₂HPO₄ is:",
+    "options": ["50 cm³", "100 cm³", "150 cm³", "200 cm³"],
+    "answer": "200 cm³"
+  },
+  {
+    "question": "The compound that gives effervescence with NaHCO₃ is:",
+    "options": ["Ethanol", "Ethanal", "Ethanoic acid", "Ethyl ethanoate"],
+    "answer": "Ethanoic acid"
+  },
+  {
+    "question": "In the electrolysis of copper(II) sulfate solution using inert electrodes, the pH of the solution:",
+    "options": ["Increases", "Decreases", "Remains constant", "First increases then decreases"],
+    "answer": "Decreases"
+  },
+  {
+    "question": "The radioactive decay series that ends with stable lead-206 begins with:",
+    "options": ["Uranium-238", "Thorium-232", "Actinium-235", "Plutonium-239"],
+    "answer": "Uranium-238"
+  },
+  {
+    "question": "The number of isomers of C₄H₁₀O that are alcohols is:",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "The mass of copper deposited by passing 2 faradays through copper(II) sulfate solution is: (Cu=63.5)",
+    "options": ["31.75g", "63.5g", "95.25g", "127g"],
+    "answer": "63.5g"
+  },
+  {
+    "question": "The radiation most affected by an electric field is:",
+    "options": ["Alpha particles", "Beta particles", "Gamma rays", "All equally"],
+    "answer": "Beta particles"
+  },
+  {
+    "question": "The volume of 0.05M EDTA required to complex with 50 cm³ of 0.02M Ca²⁺ solution is:",
+    "options": ["10 cm³", "20 cm³", "30 cm³", "40 cm³"],
+    "answer": "20 cm³"
+  },
+  {
+    "question": "Calculate the number of moles in 10g of CaCO₃. [Ca=40, C=12, O=16]",
+    "options": ["0.10 mol", "0.05 mol", "0.15 mol", "0.25 mol"],
+    "answer": "0.10 mol"
+  },
+  {
+    "question": "What volume of 0.5M H₂SO₄ will neutralize 25cm³ of 1.0M NaOH?",
+    "options": ["25 cm³", "12.5 cm³", "50 cm³", "75 cm³"],
+    "answer": "25 cm³"
+  },
+  {
+    "question": "A gas occupies 600 cm³ at 300 K. What volume will it occupy at 400 K if pressure remains constant?",
+    "options": ["800 cm³", "400 cm³", "700 cm³", "500 cm³"],
+    "answer": "800 cm³"
+  },
+  {
+    "question": "Which of the following is a basic oxide?",
+    "options": ["SO₂", "Na₂O", "CO₂", "P₄O₁₀"],
+    "answer": "Na₂O"
+  },
+  {
+    "question": "Calculate the empirical formula of a compound containing 24g of carbon and 4g of hydrogen.",
+    "options": ["CH", "CH₂", "C₂H₄", "CH₃"],
+    "answer": "CH₂"
+  },
+  {
+    "question": "Which gas is collected over water and is less dense than air?",
+    "options": ["Hydrogen", "Chlorine", "Carbon dioxide", "Sulphur dioxide"],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Determine the oxidation number of Mn in KMnO₄.",
+    "options": ["+7", "+6", "+2", "+4"],
+    "answer": "+7"
+  },
+  {
+    "question": "Which of the following is used as an electrolyte in electroplating?",
+    "options": ["Copper(II) sulphate", "Hydrochloric acid", "Sodium hydroxide", "Water"],
+    "answer": "Copper(II) sulphate"
+  },
+  {
+    "question": "What mass of NaCl is required to prepare 500 cm³ of 1M solution? [Na=23, Cl=35.5]",
+    "options": ["29.25 g", "58.5 g", "23.0 g", "11.75 g"],
+    "answer": "29.25 g"
+  },
+  {
+    "question": "Which of these gases is monoatomic?",
+    "options": ["Argon", "Oxygen", "Nitrogen", "Hydrogen"],
+    "answer": "Argon"
+  }
+]

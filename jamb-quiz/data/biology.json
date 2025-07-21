@@ -1,0 +1,328 @@
+[
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Atom", "Cell", "Tissue", "Organ"],
+    "answer": "Cell"
+  },
+  {
+    "question": "What organ detoxifies in the body?",
+    "options": ["Liver", "Heart", "Lung", "Kidney"],
+    "answer": "Liver"
+  },
+  {
+    "question": "Site of photosynthesis?",
+    "options": ["Stomata", "Chloroplast", "Root", "Leaf"],
+    "answer": "Chloroplast"
+  },
+  {
+    "question": "Function of white blood cells?",
+    "options": ["Oxygen transport", "Fight infection", "Clot blood", "Produce hormones"],
+    "answer": "Fight infection"
+  },
+  {
+    "question": "Process by which green plants make food?",
+    "options": ["Photosynthesis", "Respiration", "Fermentation", "Diffusion"],
+    "answer": "Photosynthesis"
+  } ,
+  {
+    "question": "Which of the following organelles is responsible for cellular respiration?",
+    "options": ["Ribosome", "Golgi body", "Mitochondrion", "Endoplasmic reticulum"],
+    "answer": "Mitochondrion"
+  },
+  {
+    "question": "The site of active transport in the root of a plant is the?",
+    "options": ["Cortex", "Endodermis", "Pericycle", "Xylem"],
+    "answer": "Endodermis"
+  },
+  {
+    "question": "In a food chain, primary consumers are usually?",
+    "options": ["Carnivores", "Herbivores", "Omnivores", "Decomposers"],
+    "answer": "Herbivores"
+  },
+  {
+    "question": "The movement of molecules from a region of lower concentration to higher concentration using energy is?",
+    "options": ["Diffusion", "Osmosis", "Passive transport", "Active transport"],
+    "answer": "Active transport"
+  },
+  {
+    "question": "The genetic makeup of an organism is its?",
+    "options": ["Phenotype", "Genotype", "Allele", "Genome"],
+    "answer": "Genotype"
+  },
+  {
+    "question": "A plant hormone responsible for cell elongation is?",
+    "options": ["Gibberellin", "Cytokinin", "Ethylene", "Abscisic acid"],
+    "answer": "Gibberellin"
+  },
+  {
+    "question": "Which of these processes does NOT release carbon dioxide into the atmosphere?",
+    "options": ["Respiration", "Combustion", "Photosynthesis", "Decay"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "The structural unit of the kidney is the?",
+    "options": ["Neuron", "Nephron", "Alveolus", "Lymphocyte"],
+    "answer": "Nephron"
+  },
+  {
+    "question": "In mitosis, the chromosome number of daughter cells is?",
+    "options": ["Half the parent", "Same as parent", "Double the parent", "Quarter the parent"],
+    "answer": "Same as parent"
+  },
+  {
+    "question": "The bone that protects the brain is called the?",
+    "options": ["Sternum", "Cranium", "Scapula", "Mandible"],
+    "answer": "Cranium"
+  },
+  {
+    "question": "Which of these enzymes is responsible for unwinding the DNA helix during replication?",
+    "options": ["DNA polymerase", "RNA primase", "Helicase", "Ligase"],
+    "answer": "Helicase"
+  },
+  {
+    "question": "In the nephron, the site of active glucose reabsorption is the:",
+    "options": ["Bowman's capsule", "Proximal convoluted tubule", "Loop of Henle", "Distal convoluted tubule"],
+    "answer": "Proximal convoluted tubule"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of the phylum Arthropoda?",
+    "options": ["Jointed appendages", "Chitinous exoskeleton", "Closed circulatory system", "Segmented body"],
+    "answer": "Closed circulatory system"
+  },
+  {
+    "question": "The hormone responsible for the development of secondary sexual characteristics in males is produced by the:",
+    "options": ["Pituitary gland", "Thyroid gland", "Interstitial cells of Leydig", "Adrenal cortex"],
+    "answer": "Interstitial cells of Leydig"
+  },
+  {
+    "question": "In photosynthesis, the electrons lost by photosystem II are replaced by:",
+    "options": ["NADPH", "ATP", "Water molecules", "Carbon dioxide"],
+    "answer": "Water molecules"
+  },
+  {
+    "question": "Which of these blood vessels carries oxygenated blood to the heart?",
+    "options": ["Pulmonary artery", "Pulmonary vein", "Coronary artery", "Hepatic vein"],
+    "answer": "Pulmonary vein"
+  },
+  {
+    "question": "The phenomenon where a single gene affects multiple phenotypic traits is called:",
+    "options": ["Codominance", "Pleiotropy", "Epistasis", "Polygenic inheritance"],
+    "answer": "Pleiotropy"
+  },
+  {
+    "question": "Which of these is the correct sequence of events in synaptic transmission?",
+    "options": ["Depolarization → Neurotransmitter release → Receptor binding → Repolarization", "Receptor binding → Neurotransmitter release → Depolarization → Repolarization", "Neurotransmitter release → Depolarization → Receptor binding → Repolarization", "Depolarization → Receptor binding → Neurotransmitter release → Repolarization"],
+    "answer": "Depolarization → Neurotransmitter release → Receptor binding → Repolarization"
+  },
+  {
+    "question": "In plants, the Casparian strip is located in the:",
+    "options": ["Epidermis", "Cortex", "Endodermis", "Pericycle"],
+    "answer": "Endodermis"
+  },
+  {
+    "question": "Which of these is an example of convergent evolution?",
+    "options": ["Wings of bats and birds", "Forelimbs of humans and whales", "Flippers of penguins and seals", "Eyes of octopuses and mammals"],
+    "answer": "Wings of bats and birds"
+  },
+  {
+    "question": "The process by which white blood cells engulf bacteria is called:",
+    "options": ["Osmosis", "Phagocytosis", "Pinocytosis", "Dialysis"],
+    "answer": "Phagocytosis"
+  },
+  {
+    "question": "Which of these is NOT a function of the liver?",
+    "options": ["Production of bile", "Storage of glycogen", "Synthesis of insulin", "Detoxification of alcohol"],
+    "answer": "Synthesis of insulin"
+  },
+  {
+    "question": "In the menstrual cycle, ovulation is triggered by a surge in:",
+    "options": ["Estrogen", "Progesterone", "Follicle-stimulating hormone", "Luteinizing hormone"],
+    "answer": "Luteinizing hormone"
+  },
+  {
+    "question": "The Hardy-Weinberg principle assumes all of the following EXCEPT:",
+    "options": ["No mutations", "Random mating", "Small population size", "No natural selection"],
+    "answer": "Small population size"
+  },
+  {
+    "question": "Which of these plant hormones is responsible for apical dominance?",
+    "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid"],
+    "answer": "Auxin"
+  },
+  {
+    "question": "The part of the brain that regulates body temperature is the:",
+    "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+    "answer": "Hypothalamus"
+  },
+  {
+    "question": "Which of these is an example of a density-dependent limiting factor?",
+    "options": ["Earthquake", "Disease", "Volcanic eruption", "Drought"],
+    "answer": "Disease"
+  },
+  {
+    "question": "In DNA replication, the Okazaki fragments are formed on the:",
+    "options": ["Leading strand", "Lagging strand", "Both strands", "Template strand"],
+    "answer": "Lagging strand"
+  },
+  {
+    "question": "The type of placentation where ovules are borne on a central axis is called:",
+    "options": ["Marginal", "Axile", "Parietal", "Free central"],
+    "answer": "Axile"
+  },
+  {
+    "question": "Which of these organisms has an open circulatory system?",
+    "options": ["Earthworm", "Grasshopper", "Fish", "Frog"],
+    "answer": "Grasshopper"
+  },
+  {
+    "question": "The process by which pollen grains are transferred from the anther to the stigma is called:",
+    "options": ["Fertilization", "Germination", "Pollination", "Imbibition"],
+    "answer": "Pollination"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of genetic code?",
+    "options": ["Universal", "Degenerate", "Overlapping", "Non-ambiguous"],
+    "answer": "Overlapping"
+  },
+  {
+    "question": "The part of the eye that contains photoreceptor cells is the:",
+    "options": ["Cornea", "Iris", "Retina", "Lens"],
+    "answer": "Retina"
+  },
+  {
+    "question": "In ecological succession, the first organisms to colonize a barren area are called:",
+    "options": ["Pioneer species", "Climax community", "Primary consumers", "Keystone species"],
+    "answer": "Pioneer species"
+  },
+  {
+    "question": "Which of these is an example of a sex-linked trait in humans?",
+    "options": ["Sickle cell anemia", "Color blindness", "Cystic fibrosis", "Huntington's disease"],
+    "answer": "Color blindness"
+  },
+  {
+    "question": "The process by which water moves through a semipermeable membrane is called:",
+    "options": ["Diffusion", "Osmosis", "Active transport", "Facilitated diffusion"],
+    "answer": "Osmosis"
+  },
+  {
+    "question": "Which of these is NOT a function of the mammalian skeleton?",
+    "options": ["Production of blood cells", "Storage of minerals", "Synthesis of hormones", "Provision of attachment for muscles"],
+    "answer": "Synthesis of hormones"
+  },
+  {
+    "question": "In the carbon cycle, carbon is returned to the atmosphere primarily through:",
+    "options": ["Photosynthesis", "Respiration", "Nitrogen fixation", "Transpiration"],
+    "answer": "Respiration"
+  },
+  {
+    "question": "The type of muscle found in the walls of blood vessels is:",
+    "options": ["Skeletal muscle", "Cardiac muscle", "Smooth muscle", "Striated muscle"],
+    "answer": "Smooth muscle"
+  },
+  {
+    "question": "Which of these is an example of a disaccharide?",
+    "options": ["Glucose", "Fructose", "Maltose", "Cellulose"],
+    "answer": "Maltose"
+  },
+  {
+    "question": "The part of the neuron that carries impulses away from the cell body is the:",
+    "options": ["Dendrite", "Axon", "Myelin sheath", "Node of Ranvier"],
+    "answer": "Axon"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of enzymes?",
+    "options": ["They are proteins", "They are specific in action", "They are used up in reactions", "They lower activation energy"],
+    "answer": "They are used up in reactions"
+  },
+  {
+    "question": "The process by which plants lose water vapor through their leaves is called:",
+    "options": ["Transpiration", "Guttation", "Evaporation", "Condensation"],
+    "answer": "Transpiration"
+  },
+  {
+    "question": "Which of these is the correct sequence in protein synthesis?",
+    "options": ["Transcription → Translation → Replication", "Replication → Transcription → Translation", "Translation → Transcription → Replication", "Transcription → Replication → Translation"],
+    "answer": "Transcription → Translation → Replication"
+  },
+  {
+    "question": "The hormone that stimulates milk production in mammals is:",
+    "options": ["Oxytocin", "Prolactin", "Estrogen", "Progesterone"],
+    "answer": "Prolactin"
+  },
+  {
+    "question": "Which of these is an example of a vestigial structure in humans?",
+    "options": ["Appendix", "Pancreas", "Spleen", "Gall bladder"],
+    "answer": "Appendix"
+  },
+  {
+    "question": "The process by which bacteria reproduce asexually is called:",
+    "options": ["Binary fission", "Budding", "Spore formation", "Conjugation"],
+    "answer": "Binary fission"
+  },
+  {
+    "question": "Which of these is NOT a component of the cell membrane?",
+    "options": ["Phospholipids", "Proteins", "Cholesterol", "Cellulose"],
+    "answer": "Cellulose"
+  },
+  {
+    "question": "The part of the flower that develops into the seed is the:",
+    "options": ["Ovary", "Ovule", "Stigma", "Style"],
+    "answer": "Ovule"
+  },
+  {
+    "question": "Which of these is an example of a density-independent limiting factor?",
+    "options": ["Competition", "Predation", "Flood", "Parasitism"],
+    "answer": "Flood"
+  },
+  {
+    "question": "The process by which plants respond to light is called:",
+    "options": ["Geotropism", "Phototropism", "Thigmotropism", "Hydrotropism"],
+    "answer": "Phototropism"
+  },
+  {
+    "question": "Which of these is the correct classification sequence?",
+    "options": ["Kingdom → Phylum → Class → Order → Family → Genus → Species", "Kingdom → Class → Phylum → Order → Family → Genus → Species", "Kingdom → Phylum → Order → Class → Family → Genus → Species", "Kingdom → Class → Order → Phylum → Family → Genus → Species"],
+    "answer": "Kingdom → Phylum → Class → Order → Family → Genus → Species"
+  },
+  {
+    "question": "The part of the digestive system where most nutrient absorption occurs is the:",
+    "options": ["Stomach", "Duodenum", "Jejunum", "Ileum"],
+    "answer": "Ileum"
+  },
+  {
+    "question": "Which of these is NOT a function of the kidney?",
+    "options": ["Regulation of blood pH", "Production of urea", "Osmoregulation", "Removal of metabolic wastes"],
+    "answer": "Production of urea"
+  },
+  {
+    "question": "The process by which mRNA is synthesized from DNA is called:",
+    "options": ["Translation", "Transcription", "Replication", "Transformation"],
+    "answer": "Transcription"
+  },
+  {
+    "question": "Which of these is an example of a K-selected species?",
+    "options": ["Bacteria", "Dandelion", "Elephant", "Grasshopper"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "The part of the brain responsible for coordinating voluntary movements is the:",
+    "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Thalamus"],
+    "answer": "Cerebellum"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of mitosis?",
+    "options": ["Produces genetically identical cells", "Involved in growth and repair", "Results in four daughter cells", "Occurs in somatic cells"],
+    "answer": "Results in four daughter cells"
+  },
+  {
+    "question": "The process by which atmospheric nitrogen is converted to ammonia is called:",
+    "options": ["Nitrogen fixation", "Nitrification", "Denitrification", "Ammonification"],
+    "answer": "Nitrogen fixation"
+  },
+  {
+    "question": "Which of these is an example of an abiotic factor in an ecosystem?",
+    "options": ["Predator", "Parasite", "Temperature", "Decomposer"],
+    "answer": "Temperature"
+  }
+]
+

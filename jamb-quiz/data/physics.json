@@ -1,0 +1,542 @@
+[
+  {
+    "question": "SI unit of force?",
+    "options": ["Joule", "Pascal", "Newton", "Watt"],
+    "answer": "Newton"
+  },
+  {
+    "question": "Which is NOT a scalar quantity?",
+    "options": ["Speed", "Distance", "Displacement", "Energy"],
+    "answer": "Displacement"
+  },
+  {
+    "question": "Formula for speed?",
+    "options": ["Speed = Distance / Time", "Speed = Time / Distance", "Speed = Distance × Time", "Speed = Time × Acceleration"],
+    "answer": "Speed = Distance / Time"
+  },
+  {
+    "question": "Which law explains rocket propulsion?",
+    "options": ["Newton's 1st", "Newton's 2nd", "Newton's 3rd", "Hooke's Law"],
+    "answer": "Newton's 3rd"
+  },
+  {
+    "question": "Instrument to measure electric current?",
+    "options": ["Voltmeter", "Ammeter", "Galvanometer", "Thermometer"],
+    "answer": "Ammeter"
+  },
+  {
+    "question": "What is the SI unit of electric charge?",
+    "options": ["Volt", "Ampere", "Coulomb", "Ohm"],
+    "answer": "Coulomb"
+  },
+  {
+    "question": "Which of the following is a vector quantity?",
+    "options": ["Mass", "Temperature", "Velocity", "Density"],
+    "answer": "Velocity"
+  },
+  {
+    "question": "The force that opposes relative motion between two surfaces in contact is called?",
+    "options": ["Tension", "Friction", "Elasticity", "Viscosity"],
+    "answer": "Friction"
+  },
+  {
+    "question": "What is the unit of frequency?",
+    "options": ["Hertz", "Decibel", "Newton", "Joule"],
+    "answer": "Hertz"
+  },
+  {
+    "question": "Which law states that pressure is inversely proportional to volume at constant temperature?",
+    "options": ["Charles' Law", "Boyle's Law", "Gay-Lussac's Law", "Dalton's Law"],
+    "answer": "Boyle's Law"
+  },
+  {
+    "question": "The process by which liquid changes to gas at a temperature below its boiling point is called?",
+    "options": ["Evaporation", "Condensation", "Sublimation", "Freezing"],
+    "answer": "Evaporation"
+  },
+  {
+    "question": "What is the acceleration due to gravity on Earth's surface?",
+    "options": ["6.7 m/s²", "9.8 m/s²", "10.2 m/s²", "12.0 m/s²"],
+    "answer": "9.8 m/s²"
+  },
+  {
+    "question": "Which of these electromagnetic waves has the longest wavelength?",
+    "options": ["Gamma rays", "X-rays", "Radio waves", "Ultraviolet rays"],
+    "answer": "Radio waves"
+  },
+  {
+    "question": "The principle of floatation is based on?",
+    "options": ["Pascal's principle", "Archimedes' principle", "Bernoulli's principle", "Hooke's law"],
+    "answer": "Archimedes' principle"
+  },
+  {
+    "question": "What instrument is used to measure atmospheric pressure?",
+    "options": ["Hydrometer", "Barometer", "Hygrometer", "Aneroid gauge"],
+    "answer": "Barometer"
+  },
+  {
+    "question": "The change of a liquid to a gas at its boiling point is called?",
+    "options": ["Evaporation", "Vaporization", "Condensation", "Sublimation"],
+    "answer": "Vaporization"
+  },
+  {
+    "question": "Which of these is NOT a fundamental physical quantity?",
+    "options": ["Length", "Mass", "Time", "Area"],
+    "answer": "Area"
+  },
+  {
+    "question": "The energy stored in a stretched spring is?",
+    "options": ["Kinetic energy", "Potential energy", "Chemical energy", "Heat energy"],
+    "answer": "Potential energy"
+  },
+  {
+    "question": "What is the unit of power?",
+    "options": ["Joule", "Watt", "Newton", "Pascal"],
+    "answer": "Watt"
+  },
+  {
+    "question": "The bending of light as it passes from one medium to another is called?",
+    "options": ["Reflection", "Diffraction", "Refraction", "Dispersion"],
+    "answer": "Refraction"
+  },
+  {
+    "question": "Which of these materials is a good conductor of electricity?",
+    "options": ["Rubber", "Glass", "Copper", "Plastic"],
+    "answer": "Copper"
+  },
+  {
+    "question": "The rate of change of velocity is called?",
+    "options": ["Speed", "Momentum", "Acceleration", "Force"],
+    "answer": "Acceleration"
+  },
+  {
+    "question": "What is the unit of resistance?",
+    "options": ["Ohm", "Volt", "Ampere", "Watt"],
+    "answer": "Ohm"
+  },
+  {
+    "question": "The splitting of white light into its component colors is called?",
+    "options": ["Reflection", "Refraction", "Dispersion", "Diffraction"],
+    "answer": "Dispersion"
+  },
+  {
+    "question": "Which law states that the extension of an elastic material is proportional to the applied force?",
+    "options": ["Newton's law", "Hooke's law", "Boyle's law", "Charles' law"],
+    "answer": "Hooke's law"
+  },
+  {
+    "question": "The amount of matter in a body is called?",
+    "options": ["Weight", "Mass", "Volume", "Density"],
+    "answer": "Mass"
+  },
+  {
+    "question": "What is the SI unit of work?",
+    "options": ["Newton", "Joule", "Watt", "Pascal"],
+    "answer": "Joule"
+  },
+  {
+    "question": "The resistance of a wire depends on all EXCEPT?",
+    "options": ["Length", "Cross-sectional area", "Temperature", "Voltage"],
+    "answer": "Voltage"
+  },
+  {
+    "question": "Which of these is a renewable energy source?",
+    "options": ["Coal", "Natural gas", "Solar", "Nuclear"],
+    "answer": "Solar"
+  },
+  {
+    "question": "The force acting per unit area is called?",
+    "options": ["Density", "Pressure", "Stress", "Thrust"],
+    "answer": "Pressure"
+  },
+  {
+    "question": "What is the unit of capacitance?",
+    "options": ["Ohm", "Farad", "Henry", "Tesla"],
+    "answer": "Farad"
+  },
+  {
+    "question": "The process by which a gas changes directly to solid is called?",
+    "options": ["Condensation", "Sublimation", "Deposition", "Freezing"],
+    "answer": "Deposition"
+  },
+  {
+    "question": "Which of these is NOT a type of simple machine?",
+    "options": ["Lever", "Pulley", "Inclined plane", "Generator"],
+    "answer": "Generator"
+  },
+  {
+    "question": "The time taken for a radioactive substance to decay to half its original mass is called?",
+    "options": ["Decay period", "Half-life", "Life span", "Radioactive period"],
+    "answer": "Half-life"
+  },
+  {
+    "question": "What is the unit of magnetic flux?",
+    "options": ["Tesla", "Weber", "Henry", "Gauss"],
+    "answer": "Weber"
+  },
+  {
+    "question": "The phenomenon where light ejects electrons from a metal surface is called?",
+    "options": ["Photoelectric effect", "Compton effect", "Pair production", "Polarization"],
+    "answer": "Photoelectric effect"
+  },
+  {
+    "question": "Which of these is NOT a mode of heat transfer?",
+    "options": ["Conduction", "Convection", "Radiation", "Reflection"],
+    "answer": "Reflection"
+  },
+  {
+    "question": "The speed of sound is fastest in?",
+    "options": ["Air", "Water", "Steel", "Vacuum"],
+    "answer": "Steel"
+  },
+  {
+    "question": "What is the unit of inductance?",
+    "options": ["Farad", "Henry", "Ohm", "Tesla"],
+    "answer": "Henry"
+  },
+  {
+    "question": "The point where the entire weight of a body appears to act is called?",
+    "options": ["Center of mass", "Center of gravity", "Pivot", "Fulcrum"],
+    "answer": "Center of gravity"
+  },
+  {
+    "question": "Which of these electromagnetic waves has the highest frequency?",
+    "options": ["Radio waves", "Microwaves", "Visible light", "Gamma rays"],
+    "answer": "Gamma rays"
+  },
+  {
+    "question": "The process by which a liquid changes to a solid is called?",
+    "options": ["Melting", "Freezing", "Condensation", "Sublimation"],
+    "answer": "Freezing"
+  },
+  {
+    "question": "What is the unit of luminous intensity?",
+    "options": ["Lumen", "Candela", "Lux", "Watt"],
+    "answer": "Candela"
+  },
+  {
+    "question": "The force that keeps planets in their orbits is?",
+    "options": ["Electromagnetic force", "Gravitational force", "Nuclear force", "Centripetal force"],
+    "answer": "Gravitational force"
+  },
+  {
+    "question": "Which of these is NOT a fundamental particle of an atom?",
+    "options": ["Proton", "Neutron", "Electron", "Molecule"],
+    "answer": "Molecule"
+  },
+  {
+    "question": "The ratio of useful work output to total work input is called?",
+    "options": ["Power", "Energy", "Efficiency", "Momentum"],
+    "answer": "Efficiency"
+  },
+  {
+    "question": "What is the unit of electric potential difference?",
+    "options": ["Ampere", "Ohm", "Volt", "Watt"],
+    "answer": "Volt"
+  },
+  {
+    "question": "The phenomenon where sound appears to change frequency when the source moves is called?",
+    "options": ["Resonance", "Refraction", "Doppler effect", "Echo"],
+    "answer": "Doppler effect"
+  },
+  {
+    "question": "Which of these is NOT a type of lens?",
+    "options": ["Convex", "Concave", "Plano-convex", "Triangular"],
+    "answer": "Triangular"
+  },
+  {
+    "question": "The energy possessed by a body due to its motion is called?",
+    "options": ["Potential energy", "Kinetic energy", "Chemical energy", "Heat energy"],
+    "answer": "Kinetic energy"
+  },
+  {
+    "question": "What is the unit of heat capacity?",
+    "options": ["Joule", "Joule/kelvin", "Watt", "Newton"],
+    "answer": "Joule/kelvin"
+  },
+  {
+    "question": "The process by which a solid changes directly to gas is called?",
+    "options": ["Evaporation", "Sublimation", "Condensation", "Melting"],
+    "answer": "Sublimation"
+  },
+  {
+    "question": "Which of these is NOT a type of wave?",
+    "options": ["Transverse", "Longitudinal", "Stationary", "Circular"],
+    "answer": "Circular"
+  },
+  {
+    "question": "The resistance of a liquid to flow is called?",
+    "options": ["Density", "Viscosity", "Elasticity", "Surface tension"],
+    "answer": "Viscosity"
+  },
+  {
+    "question": "What is the unit of magnetic field strength?",
+    "options": ["Tesla", "Weber", "Henry", "Gauss"],
+    "answer": "Tesla"
+  },
+  {
+    "question": "The minimum energy required to remove an electron from an atom is called?",
+    "options": ["Ionization energy", "Excitation energy", "Binding energy", "Work function"],
+    "answer": "Ionization energy"
+  },
+  {
+    "question": "Which of these is NOT a state of matter?",
+    "options": ["Solid", "Liquid", "Gas", "Energy"],
+    "answer": "Energy"
+  },
+  {
+    "question": "The force acting on a unit positive charge at a point in an electric field is called?",
+    "options": ["Electric potential", "Electric intensity", "Capacitance", "Resistance"],
+    "answer": "Electric intensity"
+  },
+  {
+    "question": "A car accelerates uniformly from rest at 3 m/s² for 10 seconds. What is its final velocity?",
+    "options": ["3 m/s", "10 m/s", "30 m/s", "13 m/s"],
+    "answer": "30 m/s"
+  },
+  {
+    "question": "An object of mass 5 kg is lifted vertically through a height of 10 m. Calculate the work done against gravity (g = 10 m/s²).",
+    "options": ["50 J", "100 J", "250 J", "500 J"],
+    "answer": "500 J"
+  },
+  {
+    "question": "A current of 2 A flows through a resistor of 10 Ω for 5 minutes. How much heat is produced?",
+    "options": ["100 J", "600 J", "1200 J", "12000 J"],
+    "answer": "12000 J"
+  },
+  {
+    "question": "Calculate the force required to give a mass of 8 kg an acceleration of 4 m/s².",
+    "options": ["2 N", "12 N", "32 N", "48 N"],
+    "answer": "32 N"
+  },
+  {
+    "question": "A wave has a frequency of 50 Hz and wavelength of 4 m. What is its speed?",
+    "options": ["12.5 m/s", "54 m/s", "200 m/s", "250 m/s"],
+    "answer": "200 m/s"
+  },
+  {
+    "question": "If the pressure of a gas at constant temperature changes from 2 × 10⁵ Pa to 4 × 10⁵ Pa while its volume becomes 0.5 m³, what was its initial volume?",
+    "options": ["0.25 m³", "0.5 m³", "1.0 m³", "2.0 m³"],
+    "answer": "1.0 m³"
+  },
+  {
+    "question": "A transformer has 100 turns in its primary coil and 500 turns in its secondary coil. If the input voltage is 50 V, what is the output voltage?",
+    "options": ["10 V", "50 V", "250 V", "500 V"],
+    "answer": "250 V"
+  },
+  {
+    "question": "An object is placed 20 cm from a concave mirror of focal length 10 cm. What is the image distance?",
+    "options": ["5 cm", "10 cm", "20 cm", "40 cm"],
+    "answer": "20 cm"
+  },
+  {
+    "question": "Calculate the resistance of a wire if a current of 0.5 A flows through it when connected to a 10 V battery.",
+    "options": ["0.05 Ω", "5 Ω", "20 Ω", "50 Ω"],
+    "answer": "20 Ω"
+  },
+  {
+    "question": "A stone is dropped from a height of 80 m (g = 10 m/s²). How long does it take to reach the ground?",
+    "options": ["2 s", "4 s", "8 s", "16 s"],
+    "answer": "4 s"
+  },
+  {
+    "question": "A 2 kg object moving at 5 m/s collides with a stationary 3 kg object. If they stick together, what is their common velocity after collision?",
+    "options": ["1 m/s", "2 m/s", "3 m/s", "5 m/s"],
+    "answer": "2 m/s"
+  },
+  {
+    "question": "Calculate the power dissipated in a 10 Ω resistor when a current of 3 A flows through it.",
+    "options": ["30 W", "60 W", "90 W", "100 W"],
+    "answer": "90 W"
+  },
+  {
+    "question": "A spring extends by 5 cm when a load of 10 N is hung from it. What is its spring constant?",
+    "options": ["0.5 N/m", "2 N/m", "50 N/m", "200 N/m"],
+    "answer": "200 N/m"
+  },
+    {
+    "question": "If the refractive index of glass is 1.5, what is the speed of light in glass? (Speed of light in vacuum = 3 × 10⁸ m/s)",
+    "options": ["1.5 × 10⁸ m/s", "2.0 × 10⁸ m/s", "4.5 × 10⁸ m/s", "6.0 × 10⁸ m/s"],
+    "answer": "2.0 × 10⁸ m/s"
+  },
+  {
+    "question": "A force of 12 N acts on an area of 4 m². What is the pressure exerted?",
+    "options": ["3 Pa", "8 Pa", "16 Pa", "48 Pa"],
+    "answer": "3 Pa"
+  },
+  {
+    "question": "A radioactive substance has a half-life of 10 days. What fraction remains after 30 days?",
+    "options": ["1/2", "1/4", "1/8", "1/16"],
+    "answer": "1/8"
+  },
+  {
+    "question": "A lens forms an image at 30 cm when an object is placed 60 cm from it. What is the focal length of the lens?",
+    "options": ["10 cm", "20 cm", "30 cm", "60 cm"],
+    "answer": "20 cm"
+  },
+  {
+    "question": "Calculate the kinetic energy of a 4 kg object moving at 5 m/s.",
+    "options": ["10 J", "20 J", "40 J", "50 J"],
+    "answer": "50 J"
+  },
+  {
+    "question": "A capacitor of 2 μF is charged to 100 V. What energy is stored in it?",
+    "options": ["0.01 J", "0.02 J", "0.1 J", "1.0 J"],
+    "answer": "0.01 J"
+  },
+  {
+    "question": "A man lifts a 20 kg load through a height of 2.5 m in 5 seconds. What power does he develop? (g = 10 m/s²)",
+    "options": ["10 W", "50 W", "100 W", "250 W"],
+    "answer": "100 W"
+  },
+  {
+    "question": "A projectile is fired at 60° to the horizontal with velocity V. If the time of flight is 10√3 seconds, what is V? (g = 10 m/s²)",
+    "options": ["50 m/s", "100 m/s", "100√3 m/s", "200/√3 m/s"],
+    "answer": "100 m/s"
+  },
+  {
+    "question": "A 2μF capacitor is charged to 200V and then connected across an uncharged 4μF capacitor. What is the final potential difference?",
+    "options": ["66.67 V", "100 V", "133.33 V", "200 V"],
+    "answer": "66.67 V"
+  },
+  {
+    "question": "A wire of resistivity 4×10⁻⁷ Ωm has resistance 2Ω. If stretched to twice its original length without volume change, its new resistance is:",
+    "options": ["2Ω", "4Ω", "8Ω", "16Ω"],
+    "answer": "8Ω"
+  },
+  {
+    "question": "A concave mirror forms a real image twice as large as the object. If the image distance is 30cm, what is the focal length?",
+    "options": ["5 cm", "10 cm", "15 cm", "20 cm"],
+    "answer": "10 cm"
+  },
+  {
+    "question": "A 0.5kg mass suspended from a spring oscillates with period T. When 1.5kg is added, the period becomes 2T. The original mass is:",
+    "options": ["0.25 kg", "0.5 kg", "0.75 kg", "1.0 kg"],
+    "answer": "0.5 kg"
+  },
+  {
+    "question": "Water flows through a pipe of radius 4cm at 3 m/s. What is the speed when it enters a constriction of radius 2cm?",
+    "options": ["0.75 m/s", "1.5 m/s", "6 m/s", "12 m/s"],
+    "answer": "12 m/s"
+  },
+  {
+    "question": "A radioactive element decays to 1/8 of its original mass in 60 days. Its half-life is:",
+    "options": ["10 days", "15 days", "20 days", "30 days"],
+    "answer": "20 days"
+  },
+  {
+    "question": "A 10Ω resistor and 15Ω resistor are connected in parallel to a battery. If the current in the 10Ω resistor is 3A, the current in the 15Ω resistor is:",
+    "options": ["1.5 A", "2 A", "3 A", "4.5 A"],
+    "answer": "2 A"
+  },
+  {
+    "question": "A stone thrown vertically upwards takes 5s to return to ground. Its initial velocity is: (g = 10 m/s²)",
+    "options": ["12.5 m/s", "25 m/s", "50 m/s", "100 m/s"],
+    "answer": "25 m/s"
+  },
+  {
+    "question": "A transformer has 100 primary turns and 400 secondary turns. If input power is 50W at 10V, the secondary current is:",
+    "options": ["1.25 A", "2.5 A", "5 A", "10 A"],
+    "answer": "1.25 A"
+  },
+  {
+    "question": "A 2kg block slides down a 30° incline with acceleration 2 m/s². The frictional force is: (g = 10 m/s²)",
+    "options": ["3 N", "6 N", "10 N", "20 N"],
+    "answer": "6 N"
+  },
+  {
+    "question": "A gas at 27°C is heated at constant pressure until volume doubles. The final temperature is:",
+    "options": ["54°C", "327°C", "373°C", "600°C"],
+    "answer": "327°C"
+  },
+  {
+    "question": "A converging lens forms an image 20cm from the lens when the object is 30cm away. The focal length is:",
+    "options": ["10 cm", "12 cm", "15 cm", "60 cm"],
+    "answer": "12 cm"
+  },
+  {
+    "question": "A 5m long ladder leans against a wall at 53° to the horizontal. If the ladder's mass is 12kg, the normal force at the wall is: (g = 10 m/s²)",
+    "options": ["30 N", "40 N", "50 N", "60 N"],
+    "answer": "40 N"
+  },
+  {
+    "question": "A car's speed changes from 36 km/h to 72 km/h in 5s. The distance covered is:",
+    "options": ["50 m", "75 m", "100 m", "125 m"],
+    "answer": "75 m"
+  },
+  {
+    "question": "A 0.2kg ball moving at 10 m/s collides with a 0.3kg stationary ball. If the first ball rebounds at 2 m/s, the second ball's velocity is:",
+    "options": ["4 m/s", "6 m/s", "8 m/s", "12 m/s"],
+    "answer": "8 m/s"
+  },
+  {
+    "question": "A 2m long wire carrying 5A experiences force of 0.1N in a magnetic field. If the field is at 30° to the wire, its strength is:",
+    "options": ["0.01 T", "0.02 T", "0.04 T", "0.05 T"],
+    "answer": "0.02 T"
+  },
+  {
+    "question": "A 100W heater boils 0.5kg of water in 5 minutes. The heat capacity of water is 4200 J/kgK. The initial water temperature was:",
+    "options": ["10°C", "20°C", "30°C", "40°C"],
+    "answer": "20°C"
+  },
+  {
+    "question": "A sound wave of frequency 340Hz has wavelength 1m in air. When it enters water, its speed triples. The new wavelength is:",
+    "options": ["0.33 m", "1 m", "3 m", "9 m"],
+    "answer": "3 m"
+  },
+  {
+    "question": "A 20μF capacitor discharges through 1MΩ resistor. The time to lose 75% charge is:",
+    "options": ["10 s", "20 s", "27.7 s", "40 s"],
+    "answer": "27.7 s"
+  },
+  {
+    "question": "A 10kg block is pulled up a 37° incline at constant speed by 100N force parallel to plane. The coefficient of friction is: (g = 10 m/s²)",
+    "options": ["0.25", "0.5", "0.75", "1.0"],
+    "answer": "0.25"
+  },
+  {
+    "question": "A 2m long string fixed at both ends vibrates in 3 segments at 300Hz. The wave speed is:",
+    "options": ["100 m/s", "200 m/s", "300 m/s", "400 m/s"],
+    "answer": "400 m/s"
+  },
+  {
+    "question": "A gas occupies 2L at 3 atm. If temperature doubles and pressure becomes 1 atm, the new volume is:",
+    "options": ["3 L", "6 L", "9 L", "12 L"],
+    "answer": "12 L"
+  },
+  {
+    "question": "A 1kg mass executes SHM with amplitude 0.1m and period π/5 s. The maximum force is:",
+    "options": ["0.4 N", "4 N", "40 N", "400 N"],
+    "answer": "4 N"
+  },
+  {
+    "question": "A ray of light enters glass (n=1.5) from air at 30°. The angle between reflected and refracted rays is:",
+    "options": ["30°", "60°", "90°", "120°"],
+    "answer": "90°"
+  },
+  {
+    "question": "A 5Ω and 10Ω resistor in parallel are connected to a third resistor in series. If total resistance is 10Ω, the third resistor is:",
+    "options": ["2.5Ω", "5Ω", "7.5Ω", "10Ω"],
+    "answer": "7.5Ω"
+  },
+  {
+    "question": "A 2000kg car rounds a 100m radius curve at 20 m/s. The horizontal force needed is:",
+    "options": ["400 N", "4000 N", "8000 N", "16000 N"],
+    "answer": "8000 N"
+  },
+  {
+    "question": "A 2m long pipe closed at one end resonates at its 3rd harmonic. The wavelength is:",
+    "options": ["0.8 m", "1.6 m", "2.4 m", "4.8 m"],
+    "answer": "1.6 m"
+  },
+  {
+    "question": "A 0.1kg mass moving at 10 m/s collides with stationary 0.4kg mass. If kinetic energy is conserved, the velocities after collision are:",
+    "options": ["-6 m/s & 4 m/s", "-4 m/s & 6 m/s", "-2 m/s & 8 m/s", "0 m/s & 10 m/s"],
+    "answer": "-6 m/s & 4 m/s"
+  },
+  {
+    "question": "A 5cm object is placed 30cm from a concave mirror of focal length 10cm. The image height is:",
+    "options": ["1 cm", "2.5 cm", "5 cm", "10 cm"],
+    "answer": "2.5 cm"
+  }
+]
