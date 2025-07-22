@@ -66,6 +66,12 @@
   </div>
   <div class="footer">Powered by Manuel Technologies</div>
   <script>
+    // Block access if not logged in
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
+  if (isLoggedIn !== "true") {
+    // Redirect to login page
+    window.location.href = "login.html";
+  }
     const userName = localStorage.getItem("prepGeniusUser") || "Anonymous";
     document.getElementById("userDisplay").innerText = "Candidate: " + userName;const subjects = ["chemistry", "biology", "physics", "mathematics"];
 let currentSubject = subjects[0];
