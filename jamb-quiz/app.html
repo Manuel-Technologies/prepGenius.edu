@@ -66,8 +66,15 @@
   </div>
   <div class="footer">Powered by Manuel Technologies</div>
   <script>
+
+    
+  // Protect the app from unauthenticated users
+  if (!localStorage.getItem("prepGeniusUser")) {
+    window.location.href = "login.html";
+  }
     // Block access if not logged in
   const isLoggedIn = localStorage.getItem("isLoggedIn");
+  ");
   if (isLoggedIn !== "true") {
     // Redirect to login page
     window.location.href = "login.html";
